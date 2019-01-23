@@ -1,0 +1,19 @@
+{
+  "name": "s3-local-flatmap-issue",
+  "version": "1.0.0",
+  "description": "Sample repository to show off the issue using flatmap with node v8.10",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx sls offline"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "npx": "^10.2.0",
+    "serverless": "^1.36.2",
+    "serverless-s3-local": "^0.3.21"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.392.0"
+  }
+}
